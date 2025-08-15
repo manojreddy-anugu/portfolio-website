@@ -52,3 +52,32 @@ footer {
 #scrollTopBtn:hover {
   background: #007bff;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+}
