@@ -2,23 +2,53 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: #f8f9fa;
+  color: #333;
 }
 
 header {
-  background: #222;
+  background: linear-gradient(135deg, #007bff, #00bcd4);
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 1rem;
 }
 
 header span {
-  color: #00bcd4;
+  color: #ffeb3b;
 }
 
 section {
   padding: 2rem;
+  max-width: 900px;
+  margin: auto;
 }
 
 h2 {
-  color: #00bcd4;
+  color: #007bff;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #00bcd4;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#scrollTopBtn:hover {
+  background: #007bff;
 }
